@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage for EJS practice</title>
+</head>
+<body>
+    <h1>This is the favorite fruit view</h1>
+    <h3>A list of GA instructors:</h3>
+    <ul>
+        <% instructors.forEach(instructor => { %>
+            <li> <%= instructor %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
